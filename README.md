@@ -27,3 +27,5 @@ The carrier corresponding to the 2 letter IATA code, can be looked up by enterin
 4. Choose and build alternative models and compare all models with various accuracy metrics.
 
 **The algorithm runs in a Google Colaboratory environment (based on Jupyter notebooks), which is independent of the local machine. They are ipython notebooks and all you need is a browser to run them.**
+
+**NOTE: If GitHub fails to load the ipython file(s) (.ipynb), you can access them using nbviewer. SGD regression can be viewed [here](https://nbviewer.jupyter.org/github/AnujArora23/FlightDelayML/blob/master/SGDFlightDelayDataset.ipynb)**
