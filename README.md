@@ -25,3 +25,5 @@ The carrier corresponding to the 2 letter IATA code, can be looked up by enterin
 3. Choose and build an appropriate regression model for this dataset to predict ArrDelay time in minutes.
 
 4. Choose and build alternative models and compare all models with various accuracy metrics.
+
+**The algorithm runs in a Google Colaboratory environment (based on Jupyter notebooks), which is independent of the local machine. They are ipython notebooks and all you need is a browser to run them.**
