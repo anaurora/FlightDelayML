@@ -4,7 +4,7 @@ Please follow the following order when viewing the ipython notebooks:
 
 1) *SGDFlightDelayDataset.ipynb*: Data ingestion, cleanup, exploration and SGD regression model fitting and prediction.
 
-2) *DTFlightDelayDataset.ipynb*: Data ingestion, cleanup, Decision Tree (DT) regression model fitting and prediction, and comparison between SGD and DT.
+2) *DTFlightDelayDataset.ipynb*: Data ingestion, cleanup, Decision Tree (DT) regression model fitting and prediction, and comparison between SGD and DT (exploration removed).
 
 These datasets are taken from Microsoft Azure Machine Learning Studio's sample datasets. It contains flight delay data for various airlines for the year 2013. There are two files uploaded as a compressed archive in this GitHub repository.
 
