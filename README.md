@@ -1,5 +1,11 @@
 # Flight Delay Prediction
 
+Please follow the following order when viewing the ipython notebooks:
+
+1) *SGDFlightDelayDataset.ipynb*: Data ingestion, cleanup, exploration and SGD regression model fitting and prediction.
+
+2) *DTFlightDelayDataset.ipynb*: Data ingestion, cleanup, Decision Tree (DT) regression model fitting and prediction, and comparison between SGD and DT.
+
 These datasets are taken from Microsoft Azure Machine Learning Studio's sample datasets. It contains flight delay data for various airlines for the year 2013. There are two files uploaded as a compressed archive in this GitHub repository.
 
 1) **Flight_Delays_Data.csv** : This contains arrival and departure details for various flights operated by 16 different airlines. The schema is pretty self explanatory but I will mention the important and slightly obscure columns:
@@ -28,4 +34,4 @@ The carrier corresponding to the 2 letter IATA code, can be looked up by enterin
 
 **The algorithm runs in a Google Colaboratory environment (based on Jupyter notebooks), which is independent of the local machine. They are ipython notebooks and all you need is a browser to run them.**
 
-**NOTE: If GitHub fails to load the ipython file(s) (.ipynb), you can access them using nbviewer. SGD regression can be viewed [here](https://nbviewer.jupyter.org/github/AnujArora23/FlightDelayML/blob/master/SGDFlightDelayDataset.ipynb)**
+**NOTE: If GitHub fails to load the ipython file(s) (.ipynb), you can access them using nbviewer. SGD regression can be viewed [here](https://nbviewer.jupyter.org/github/AnujArora23/FlightDelayML/blob/master/SGDFlightDelayDataset.ipynb) and Decision Tree Regression can be viewed [here](https://nbviewer.jupyter.org/github/AnujArora23/FlightDelayML/blob/master/DTFlightDelayDataset.ipynb)**
