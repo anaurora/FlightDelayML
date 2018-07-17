@@ -22,7 +22,7 @@ These datasets are taken from Microsoft Azure Machine Learning Studio's sample d
 
 The carrier corresponding to the 2 letter IATA code, can be looked up by entering the code [on this website.](http://www.iata.org/publications/Pages/code-search.aspx).
 
-**Goals:**
+# Goals:
 
 1. Clean the data, and see which features may be important and which might be redundant.
 
@@ -31,6 +31,16 @@ The carrier corresponding to the 2 letter IATA code, can be looked up by enterin
 3. Choose and build an appropriate regression model for this dataset to predict ArrDelay time in minutes.
 
 4. Choose and build alternative models and compare all models with various accuracy metrics.
+
+# Outcome:
+
+Based on the analysis, we have concluded that **Stochastic Gradient Descent Regression (Regularized with Elasticnet)** is the best choice for the prediction of arrival delays in this dataset. This can be shown by the following metrics:
+
+1) SGD Regression:
+*Mean Squared Error*: 164 i.e. *Root Mean Squared Error*: 12.81 minutes (average Arrival Delay Prediction error) ; *Coefficient of Determination*: 0.89 
+
+2) Decision Tree Regression:
+*Mean Squared Error*: 184 i.e. *Root Mean Squared Error*: 13.57 minutes (average Arrival Delay Prediction error) ; *Coefficient of Determination*: 0.86
 
 **The algorithm runs in a Google Colaboratory environment (based on Jupyter notebooks), which is independent of the local machine. They are ipython notebooks and all you need is a browser to run them.**
 
